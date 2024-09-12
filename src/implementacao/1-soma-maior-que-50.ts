@@ -1,6 +1,5 @@
-function somaMaiorQueCinquenta() {
-    let valor1 = 10;
-    let valor2 = 8;
+function somaMaiorQueCinquenta(valor1: number, valor2: number) {
+
     let soma = valor1 + valor2;
 
     if(soma > 50){
@@ -10,3 +9,5 @@ function somaMaiorQueCinquenta() {
         return "O resultado da soma é menor que 50"
     }
 }
+
+console.log(somaMaiorQueCinquenta(40, 20));
