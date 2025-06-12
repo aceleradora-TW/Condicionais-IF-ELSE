@@ -1,2 +1,11 @@
-# Par ou ímpar
-Construa um algoritmo que determine (imprima) se um dado número N inteiro, recebido através do teclado, é PAR ou ÍMPAR.
+# verificarParOuImpar
+Enunciado:
+ Crie uma função chamada verificarParOuImpar que receba um número inteiro. A função deve retornar "PAR" se o número for par e "ÍMPAR" se o número for ímpar.
+Exemplos:
+verificarParOuImpar(4);
+Entrada: 4 → Saída: "PAR"
+verificarParOuImpar(7);
+Entrada: 7 → Saída: "ÍMPAR"
+verificarParOuImpar(0);
+Entrada: 0 → Saída: "PAR"
+
